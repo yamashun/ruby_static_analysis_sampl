@@ -1,0 +1,19 @@
+class TodoList
+  public
+
+  def before_list: () -> untyped
+
+  def expired_list: () -> untyped
+
+  def finish: (untyped index) -> untyped
+
+  def finished_list: () -> untyped
+
+  def pop: () -> untyped
+
+  def push: (untyped todo) -> untyped
+
+  private
+
+  def initialize: () -> untyped
+end
